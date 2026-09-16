@@ -1,5 +1,7 @@
 # `animator`
 
+[demo](https://stage.nsqx.org/demo/animator)
+
 compact library for granular control over animations on the web
 
 ### build
@@ -62,10 +64,7 @@ const anim = new Animator({
 	duration: 2000,
 	loop: 3, // true -> loop indefinitely, number -> loop n times
 	onUpdate: progress => {
-		/* do something each frame */
-	},
-	onLoop: () => {
-		/* looped */
+		/* do something */
 	},
 	onComplete: () => {
 		/* animation finished */
