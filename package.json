@@ -1,0 +1,16 @@
+{
+	"name": "animator",
+	"version": "1.0.0",
+	"description": "compact utility for granular control over animations via javascript",
+	"license": "UNLICENSED",
+	"author": "nsqx",
+	"type": "module",
+	"main": "src/main.js",
+	"scripts": {
+		"build": "rollup -c"
+	},
+	"devDependencies": {
+		"@rollup/plugin-terser": "^1.0.0",
+		"rollup": "^4.63.3"
+	}
+}
